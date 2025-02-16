@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #000;
+}
+
+nav {
+  z-index: 1000;
+  height: 70px;
+  width: 100%;
+  background: #282828;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+nav button {
+  padding: 7px 20px;
+  border: none;
+  background: #0091bd;
+  color: #fff;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/GTS_Brimhall_MG_7483_4Desktop_V2_1200x@2x.progressive.png.jpeg);
+  background-size: cover;
+}
+main .innerSection {
+  font-weight: 600;
+  padding: 0 8rem;
+  background: rgba(0, 0, 0, 0.6823529412);
+  overflow: visible;
+}
+main .innerSection .innerbtn {
+  color: #000;
+  background: #fff700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 5rem;
+}
+
+.middleSection {
+  height: 70%;
+  width: 100%;
+  color: #fff;
+  font-size: 2rem;
+  background-image: url("/images/TradeIn_GTS_Slice_Desktop.webp");
+  background-size: cover; /* Fills the section while keeping aspect ratio */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+}
+
+.Sixsection {
+  padding: 3rem;
+}
+
+.featureSection {
+  background-image: url("/images/GTS_Rally_Edition_LandingPage_Slice_Desktop_20_1.jpeg");
+  background-size: cover;
+  background-position: 0 20%;
+  padding: 2rem;
+}
+
+.frame {
+  width: 100%;
+  height: 80%;
+  overflow-y: hidden;
+}
+
+.perf {
+  background-image: url("/images/GTS_Brimhall_MG_9771_Desktop_1200x@2x.progressive.png.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.weightSection {
+  background-image: url(/images/GTS_Brimhall_MG_0864_4Desktop_2000x.jpeg);
+  background-size: cover;
+  background-position: 0 60%;
+}
+
+.chart {
+  overflow: hidden;
+}
+
+.view8 {
+  background-image: url(/images/GTS_Brimhall_MG_7236_4Desktop_2000x.jpeg);
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+.view9 {
+  background-image: url(/images/GT_BlackAndYella_Desktop.avif);
+  background-size: cover;
+  background-position: 0 40%;
+}
+
+.view10 {
+  background-image: url(/images/2023-06-28_OneWheel_GTS_S_Series0772_947d7f35-ba38-4cf9-9140-49cd34911cdc.jpeg);
+  background-size: cover;
+  background-position: 0 90%;
+}
+
+.view11 {
+  background-image: url(/images/GTS_Brimhall_MG_7668_4Desktop_2000x.avif);
+  background-size: cover;
+  background-position: 0 60%;
+}
+
+.view12 {
+  background-image: url(/images/GTSFeatures_1600x.jpeg);
+  background-size: cover;
+  background-position: 0 30%;
+  padding-top: 10rem;
+}
+
+footer {
+  padding: 3rem;
+}
+footer .lowerFooter {
+  padding: 3rem;
+}
+footer form input {
+  padding: 5px 10px;
+}/*# sourceMappingURL=style.css.map */
